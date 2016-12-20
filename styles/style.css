@@ -134,11 +134,6 @@ section.first a {
     text-align: left;
 }
 
-.vertical {
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-}
-
 .double span .news {
     display: inline-block;
     padding: 3px 10px;
@@ -167,6 +162,11 @@ section.first a {
     font: 900 42px 'Roboto', sans-serif;
 }
 
+.vertical {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
 .vertical ul li:first-child {
     margin-top: 200px;
 }
@@ -177,8 +177,11 @@ section.first a {
     margin-bottom: -50%;
 }
 
-section.vertical > span .news {
+.vertical .news {
     display: inline-block;
+}
+
+.vertical > span {
     margin-top: 0;
 }
 
