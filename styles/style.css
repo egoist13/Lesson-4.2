@@ -179,7 +179,7 @@ section.first a {
 
 .vertical span .news {
     display: inline-block;
-    /*margin-bottom: 200px;*/
+    margin-top: 0;
 }
 
 .price {
