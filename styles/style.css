@@ -177,7 +177,7 @@ section.first a {
     margin-bottom: -50%;
 }
 
-.vertical span .news {
+section.vertical > span .news {
     display: inline-block;
     margin-top: 0;
 }
