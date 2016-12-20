@@ -181,10 +181,6 @@ section.first a {
     display: inline-block;
 }
 
-.vertical > span {
-    margin-top: 0;
-}
-
 .price {
     display: inline-block;
     margin: 20px auto;
