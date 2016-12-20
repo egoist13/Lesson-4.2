@@ -139,9 +139,8 @@ section.first a {
     justify-content: flex-start;
 }
 
-.news {
+.double span .news {
     display: inline-block;
-    margin: 8% auto 25%;
     padding: 3px 10px;
     background-color: #83d78c;
     color: #ffffff;
@@ -168,15 +167,19 @@ section.first a {
     font: 900 42px 'Roboto', sans-serif;
 }
 
+.vertical ul li:first-child {
+    margin-top: 200px;
+}
+
 .vertical img {
     width: 100%;
     margin: 0;
     margin-bottom: -50%;
 }
 
-.vertical .news {
+.vertical span .news {
     display: inline-block;
-    margin-bottom: 200px;
+    /*margin-bottom: 200px;*/
 }
 
 .price {
